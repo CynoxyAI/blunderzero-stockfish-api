@@ -1,1 +1,1 @@
-web: gunicorn stockfish_api:app
+web: python stockfish_api.py
