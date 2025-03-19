@@ -2,3 +2,4 @@ flask
 gunicorn
 chess
 python-chess
+stockfish
