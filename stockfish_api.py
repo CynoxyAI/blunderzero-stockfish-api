@@ -5,7 +5,7 @@ import chess.engine
 app = Flask(__name__)
 
 # Initialize Stockfish Engine
-ENGINE_PATH = "stockfish.exe"  # Change path if needed
+ENGINE_PATH = "stockfish-ubuntu-x86-64-avx2"  # Change path if needed
 engine = chess.engine.SimpleEngine.popen_uci(ENGINE_PATH)
 
 @app.route("/", methods=["GET"])
